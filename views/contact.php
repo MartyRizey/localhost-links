@@ -1,11 +1,11 @@
 <?php 
-  require ('header.php'); 
-  require ('navbar.php');   
+  require 'templates/header.php'; 
+  require 'templates/navbar.php';   
 ?>
 
-<h2>Je suis la page contact</h2>
+<h1>Je suis la page contact</h1>
 
 
 
 
-<?php require ('footer.php'); ?>
+<?php require 'templates/footer.php'; ?>

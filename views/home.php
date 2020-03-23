@@ -1,7 +1,7 @@
 <?php
 
-require ('templates/header.php');
-require ('templates/navbar.php');
+    require 'templates/header.php';
+    require 'templates/navbar.php';
 
 ?>
 
@@ -17,6 +17,6 @@ require ('templates/navbar.php');
   </div>
 
 
-  <?php require ('templates/footer.php');?>
+  <?php require 'templates/footer.php'; ?>
 
   <hr>
