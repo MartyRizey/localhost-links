@@ -1,1 +1,1 @@
-<h1>Je suis le header</h1>
+<h2>Je suis le header</h2>

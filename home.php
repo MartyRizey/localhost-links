@@ -1,6 +1,7 @@
 <?php
 
-  
+require ('header.php');
+require ('navbar.php');
 
 ?>
 
@@ -13,4 +14,7 @@
             Bienvenue sur mon super site !<br />
             Vous allez adorer ici, c'est un site génial qui va parler de... euh... Je cherche encore un peu le thème de mon site. :-D
         </p>
-    </div>
+  </div>
+
+
+  <?php require ('footer.php');?>

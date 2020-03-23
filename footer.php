@@ -1,6 +1,9 @@
  <!-- Le pied de page -->
     
- <?php include("pied_de_page.php"); ?>
+ <footer>
+    <h2>Je suis le pied de page</h2>
+ 
+ </footer>
     
-    </body>
+ </body>
 </html>
