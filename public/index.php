@@ -1,7 +1,7 @@
 
 <?php 
   
-  require $_SERVER['DOCUMENT_ROOT'] . '/tutoriels/Support_cours/Autres/liens-localhost/inc/fileDefinePath.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/Linux/code/localhost-links/inc/fileDefinePath.php';
 
   // constante magique __DIR__
   // print_r(__DIR__); echo '<p></p>';
@@ -27,12 +27,17 @@
   // Chemin relatif à partir de l'endroit ou je me trouve
   // * require '..\views\home.php';
 
-  // Avec le fichier 'index.php' dans un dossier "public" sous Linux.
+  // Avec le fichier 'index.php' dans un dossier "public" sous LINUX.
   // ----------------------------------------------------------------
   // sous Linux seul le slash ' / ' est fonctionnel.
+  // $_SERVER['DOCUMENT_ROOT'] = /var/www/html
   require $_SERVER['DOCUMENT_ROOT'] . '/Linux/code/localhost-links/views/home.php';
+  // __DIR__ = /var/www/html/Linux/code/localhost-links/public 
   require __DIR__ . '/../views/home.php';
-  
+  // à partir d'une constante créée dans le fichier inc/fileDefinePath.php
+  require VIEWSFOLDER . '/home.php';
+  // Chemin relatif à partir de l'endroit ou je me trouve
+  require '../views/home.php';
   
 ?>
    
