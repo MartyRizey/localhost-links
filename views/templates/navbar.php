@@ -3,7 +3,7 @@
 <nav>
 
  <ul>
-   <li><a href="#">Accueil</a></li>
+   <li><a href="../views/home.php">Accueil</a></li>
    <li><a href="#">Membres</a></li>
    <li><a href="../views/contact.php">Contact</a></li>
  </ul>
